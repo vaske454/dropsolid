@@ -1,3 +1,8 @@
 services:
   dropsolid_dependency_injection.jsonplaceholder:
     class: Drupal\dropsolid_dependency_injection\JsonPlaceholderService
+
+  dropsolid_dependency_injection.breadcrumb:
+    class: Drupal\dropsolid_dependency_injection\BreadcrumbBuilder
+    tags:
+      - { name: breadcrumb_builder, priority: 100 }
