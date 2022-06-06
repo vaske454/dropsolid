@@ -1,0 +1,3 @@
+services:
+  dropsolid_dependency_injection.jsonplaceholder:
+    class: Drupal\dropsolid_dependency_injection\JsonPlaceholderService
